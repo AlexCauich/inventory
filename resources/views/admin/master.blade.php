@@ -49,8 +49,8 @@
                             <li class="breadcrumb-item">
                                 <a href="{{ url('/admin') }}" class="nav-link"><i class="fas fa-home"></i> Dashboard</a>
                             </li>
+                            
                             @section('breadcrumb')
-                                
                             @show
                         </ol>
                     </nav>
